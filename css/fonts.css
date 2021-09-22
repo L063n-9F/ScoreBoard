@@ -1,1 +1,21 @@
-test
+@font-face {
+	font-family: 'CodeProLC';
+	src: url('../fonts/Code-Pro-LC.eot');
+	src: local('Code Pro LC'), local('Code-Pro-LC'),
+		url('../fonts/Code-Pro-LC.eot?#iefix') format('embedded-opentype'),
+		url('../fonts/Code-Pro-LC.woff') format('woff'),
+		url('../fonts/Code-Pro-LC.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'CodeProBoldLC';
+	src: url('../fonts/Code-Pro-Bold-LC.eot');
+	src: local('Code Pro Bold LC'), local('Code-Pro-Bold-LC'),
+		url('../fonts/Code-Pro-Bold-LC.eot?#iefix') format('embedded-opentype'),
+		url('../fonts/Code-Pro-Bold-LC.woff') format('woff'),
+		url('../fonts/Code-Pro-Bold-LC.ttf') format('truetype');
+	font-weight: bold;
+	font-style: normal;
+}
