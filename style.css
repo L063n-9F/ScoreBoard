@@ -1,0 +1,474 @@
+html, body {
+    height: 100%;
+    margin: 0;
+}
+h1 {
+    font-size: 32px;
+}
+.profile-background {
+    background-image: url(https://static.playoverwatch.com/img/pages/career/crystal-bg-37ed275aa5.png);
+    min-height: 100%;
+    background-color: #293347;
+    background-repeat: no-repeat;
+    min-width: 1450px;
+}
+
+.career-station {
+    max-width: 1250px;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    justify-content: center;
+}
+
+.profile_1 {
+    font-family: BigNoodleToo;
+    color: #f6f6f6;
+    width: 250px;
+    padding-top: 20px;
+    padding-right: 20px;
+    left: 0px;
+    top: 0px;
+}
+.profile_1 h1 {
+    position: relative;
+    display: inline-block;
+}
+
+.profile_2 h1 {
+    position: relative;
+    display: inline-block;
+}
+
+.profile_3 h1 {
+    position: relative;
+    display: inline-block;
+}
+
+.profile_4 h1 {
+    position: relative;
+    display: inline-block;
+}
+
+.profile_2 {
+    font-family: BigNoodleToo;
+    color: #f6f6f6;
+    width: 250px;
+    padding-top: 20px;
+    padding-right: 20px;
+}
+.profile_3 {
+    font-family: BigNoodleToo;
+    color: #f6f6f6;
+    width: 250px;
+    padding-top: 20px;
+    padding-right: 20px;
+}
+.profile_4 {
+    font-family: BigNoodleToo;
+    color: #f6f6f6;
+    width: 250px;
+    padding-top: 20px;
+}
+.profile-image {
+    width: 128px;
+    float: left;
+}
+.player-portrait {
+    height: 24px;
+    position: relative;
+    padding-left: 14px;
+}
+.SR-Rating {
+    width: 128px;
+    float: right;
+    font-size: 24px;
+}
+
+.player-level {
+    position: relative;
+    width: 80px;
+    height: 80px;
+    font-size: 12px;
+    text-align: center;
+    color: #f6f6f6;
+    background-size: auto 100%;
+    font-family: Futura,century gothic,arial,sans-serif;
+    font-weight: 600;
+    vert-align: middle;
+}
+
+.u-vertical-center {
+    position: relative;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    transform: translateY(-50%);
+    font-size: 12px;
+    text-align: center;
+}
+
+.player-rank {
+    position: absolute;
+    bottom: -4%;
+    width: 100%;
+    height: 50%;
+    background-size: auto 100%;
+
+}
+
+body.career-detail .endorsement-level {
+    border-left: 1px solid hsla(0,0%,96.5%,.2);
+}
+
+.endorsement-level, .player-level, .competitive-rank {
+    position: relative;
+    width: 80px;
+    height: 80px;
+    font-size: 12px;
+    text-align: center;
+    color: #f6f6f6;
+    display: inline-block;
+    font-family: FuturaNo2D,century gothic,arial,sans-serif;
+    font-weight: 600;
+    vertical-align: middle;
+}
+
+.EndorsementIcon-inner {
+    position: relative;
+    width: 50%;
+    height: 50%;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%,-50%) rotate(-90deg);
+    transform: translate(-50%,-50%) rotate(-90deg);
+}
+
+.EndorsementIcon {
+    width: 100%;
+    height: 100%;
+}
+
+.u-center {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translateX(-50%) translateY(-50%);
+    transform: translateX(-50%) translateY(-50%);
+}
+
+.EndorsementIcon-background {
+    position: absolute;
+    display: block;
+    width: 110%;
+    height: 110%;
+    top: -5%;
+    left: -5%;
+    fill: #2a2b2e;
+    stroke: none;
+}
+
+.endorsement-level {
+    border-left: 1px solid hsla(0,0%,96.5%,.2);
+}
+.competitive-rank {
+    border-left: 1px solid hsla(0,0%,96.5%,.2);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-left: 5px;
+
+}
+
+.EndorsementIcon-border--shotcaller {
+    stroke: #f19512;
+}
+.EndorsementIcon-border--teammate {
+    stroke: #c81af5;
+}
+.EndorsementIcon-border--sportsmanship {
+    stroke: #40ce44;
+}
+.EndorsementIcon-border {
+    position: absolute;
+    display: block;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    fill: none;
+    stroke-width: 1px;
+    stroke-dasharray: 0,100;
+    -webkit-transition: stroke-dasharray 1s linear,-webkit-transform 1s linear;
+    transition: stroke-dasharray 1s linear,-webkit-transform 1s linear;
+    transition: transform 1s linear,stroke-dasharray 1s linear;
+    transition: transform 1s linear,stroke-dasharray 1s linear,-webkit-transform 1s linear;
+}
+.profile_block {
+    display: flex;
+    font-size: 0;
+}
+.profile_competetive {
+    color: #f6f6f6;
+    fill: #f6f6f6;
+}
+.DataTable {
+    display: table;
+    width: 250px;
+    border-radius: .25rem;
+    text-transform: uppercase;
+    background-color: #f6f6f6;
+    font-size: 14px;
+    letter-spacing: .5px;
+    border-collapse: collapse;
+}
+.DataTable-tableBody {
+    display: table-row-group;
+}
+.DataTable-tableColumn {
+    padding: 5px 10px;
+    color: rgba(45,41,60,.55);
+    word-break: break-word;
+}
+.DataTable-tableColumn:last-child {
+    width: 40%;
+    text-align: right;
+    color: #405275;
+    font-family: Arial,sans-serif;
+    font-weight: 400;
+}
+.DataTable-tableRow:nth-child(2n) {
+    background-color: rgba(198,203,222,.35);
+}
+
+.DataTable-tableHeading {
+    padding: 5px;
+    border-top-left-radius: .25rem;
+    border-top-right-radius: .25rem;
+    background-color: #c6cbde;
+    color: #405275;
+    text-align: left;
+}
+.icon {
+    margin-right: .8rem;
+    fill: #405275;
+    width: 26px;
+    height: 26px;
+}
+
+.stat-title {
+    font-family: FuturaNo2D,century gothic,arial,sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-variant: normal;
+    line-height: normal;
+    display: inline-block;
+    font-size: 12px;
+    margin: 0;
+}
+
+th {
+    vertical-align: middle;
+}
+
+.competitive-rank-role-icon {
+    width: 20px;
+    vertical-align: middle;
+}
+.competitive-rank-tier-icon {
+    width: 20px;
+    vertical-align: middle;
+}
+.competitive-rank-tier.competitive-rank-tier-tooltip.competitive-rank-tier--highest {
+    display: inline-block;
+}
+.competitive-rank-tier.competitive-rank-tier-tooltip{
+	display: inline-block;
+}
+.competitive-rank-level {
+    display: inline-block;
+    text-align: right;
+    vertical-align: middle;
+    font-size: 14px;
+}
+.competitive-rank-section {
+    display: inline-block;
+    background-color: rgba(0,0,0,.1);
+}
+
+/* Mobile devices */
+@media screen and (min-width:1600px){
+    .Navbar-container{display:none;}
+    .profile_1{padding-right: 20px !important;}
+    .total{display: none !important;}
+}
+@media screen and (max-width:1600px){
+    .profile_1{display: none}
+    .profile_2{display: none}
+    .profile_3{display: none}
+    .profile_4{display: none}
+    .career-station{min-width:250px}
+    .profile-background{min-width:250px}
+    .total{display: flex;}
+}
+
+.Navbar-container {
+    position: relative;
+    height: 48px;
+    background: #fff;
+    max-width: 1600px;
+    margin: 0 auto;
+}
+.Navbar-mobile {
+    position: relative;
+    height: 48px;
+    padding-left: 20px;
+    white-space: nowrap;
+}
+.Navbar-Sitemenu-icon {
+    width: 48px;
+    height: 48px;
+}
+.Navbar-Sitemenu-icon svg {
+    width: 48px;
+    height: 48px;
+}
+
+.Navbar-Sitemenu-icon svg:hover {
+    cursor: pointer;
+}
+
+.navbar-ovlogo {
+    position: absolute;
+    top: 6px;
+    height: 36px;
+}
+.navbar-ovlogo-div{
+    display: flex;
+    justify-content: center;
+}
+.menu-wrap {
+    background-color: #2f3543;
+    position: fixed;
+    top: 0;
+    height: 100%;
+    width: 280px;
+    margin-left: -280px;
+    font-size: 1em;
+    font-weight: 700;
+    overflow: auto;
+    transition: .25s;
+    z-index: 10;
+    color: #fff;
+}
+.menu {
+    padding-left: 0px;
+}
+.menu li{
+    list-style-type: none;
+}
+.menu li:before {
+    content: "";
+    display: block;
+    width:100%;
+    height:1px;
+    opacity:.2;
+    background-color: #e5e3dc;
+}
+.menu a {
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+    display: flex;
+    height: 50px;
+    align-items: center;
+    padding: 15px 30px;
+    font-family: FuturaNo2D;
+    font-size: 16px;
+}
+.menu a:hover {
+    color: #ff9c00;
+}
+.menu-show {
+    margin-left: 0;
+}
+.active {
+    color: #ff9c00 !important;
+}
+.show {
+    display: block;
+    padding-right: 0px;
+}
+.notshow {
+    display: none !important;
+}
+
+.ow-SiteNav-logo {
+    display: block;
+    padding: 40px 30px 30px;
+    fill: #fff;
+}
+.ow-SiteNav-logo {
+    background-color: transparent;
+    border: none;
+}
+.Navbar-modalClose.Navbar-icon {
+    left: auto;
+    right: 5px;
+    width: 30px;
+    height: 30px;
+    color: #fff;
+    position: absolute;
+    top: 0;
+}
+.Navbar-modalClose.Navbar-icon svg:hover{
+    color: #00aeff;
+    cursor: pointer;
+}
+.Navbar-modalClose.Navbar-icon svg{
+    fill: currentColor;
+}
+
+.total {
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    height: 100%;
+    width: 250px;
+    flex-direction: column;
+    margin: auto;
+}
+
+.total_profile {
+    font-family: BigNoodleToo;
+    color: #f6f6f6;
+    width: 250px;
+    padding-top: 20px;
+    padding-right: 20px;
+    left: 0px;
+    top: 0px;
+}
+
+.total_profile:last-child {
+    padding-bottom: 20px;
+}
+
+.total_profile h1 {
+    position: relative;
+    display: inline-block;
+}
+
+.input_style h1{
+    font-family: BigNoodleToo;
+    color: #f6f6f6;
+    font-size: 42px;
+    margin-top: 0;
+}
+.input_style {
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    justify-content: center;
+}
